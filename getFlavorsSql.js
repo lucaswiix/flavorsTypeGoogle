@@ -35,7 +35,7 @@ $( document ).ready(function(){
 });
 
 /*
- CREATE TABLE `azureflavorprice` (
+ CREATE TABLE `googleflavorsprice` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   `vCPU` bigint(20) DEFAULT NULL,
@@ -46,7 +46,5 @@ $( document ).ready(function(){
   `location` varchar(255) DEFAULT NULL,
   `versionDate` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=53011 DEFAULT CHARSET=latin1
-*/
-/*
+) ENGINE=InnoDB AUTO_INCREMENT=53011 DEFAULT CHARSET=latin1;
 */
